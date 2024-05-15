@@ -36,7 +36,7 @@
                 height: 0;
                 overflow: hidden;
                 padding: 0 24px;
-                transition: height, 0.5s ease;
+                transition: height, .5s ease;
 
                 li {
                     list-style: disc;
@@ -60,7 +60,7 @@
                 .faq__questions__item__answer {
                     height: auto;
                     padding-bottom: 24px;
-                    transition: height, 0.5s ease;
+                    transition: height, .5s ease;
                 }
             }
         }
