@@ -13,6 +13,18 @@
         background-size: contain;
         background-repeat: no-repeat;
         margin-top: -55px;
+        display: flex;
+        justify-content: center;
+    }
+
+    @media (min-width:769px) and (max-width: 1024px) {
+        background-image: url(../images/hero_tablet.jpg);
+        padding-top: calc(50vw + 25px);
+        background-size: contain;
+        background-repeat: no-repeat;
+        margin-top: -86px;
+        display: flex;
+        justify-content: center;
     }
 
     .button {
